@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.15"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>KosmicznaWojna: Plik źródłowy E:/AiR_PW/6_semestr/pjc/SEBA/Program/Gra_final_V2_Doxygen/GraV1/wynik.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">KosmicznaWojna
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.15 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">E:/AiR_PW/6_semestr/pjc/SEBA/Program/Gra_final_V2_Doxygen/GraV1/wynik.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="wynik_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef WYNIK_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define WYNIK_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;QGraphicsTextItem&gt;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;QGraphicsRectItem&gt;</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div><div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="class_wynik.html">   17</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_wynik.html">Wynik</a>: <span class="keyword">public</span> QGraphicsTextItem</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <a class="code" href="class_wynik.html#a3f526367577e7151d44b11fb3cdedac4">Wynik</a>(QGraphicsItem* parent = 0);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_wynik.html#aad86f8eb67bdec7ac986ca5b32721972">setWynik</a>(QString wynikk);</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_wynik.html#aaa9fedf05775f2e59da412e820e6fa80">daneWroga</a>(<span class="keywordtype">int</span> iloscW, <span class="keywordtype">double</span> HPW, QString bronW);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_wynik.html#ac7d869c1e0dbd678714b0e78abfe69b0">danePlayera</a>(<span class="keywordtype">double</span> HPP, QString bronP);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_wynik.html#a59fe638e90aa61d3448260ac19540b1f">odliczanieBomby</a>(<span class="keywordtype">int</span> i);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;};</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#endif // WYNIK_H</span></div><div class="ttc" id="class_wynik_html_aaa9fedf05775f2e59da412e820e6fa80"><div class="ttname"><a href="class_wynik.html#aaa9fedf05775f2e59da412e820e6fa80">Wynik::daneWroga</a></div><div class="ttdeci">void daneWroga(int iloscW, double HPW, QString bronW)</div><div class="ttdef"><b>Definition:</b> wynik.cpp:18</div></div>
+<div class="ttc" id="class_wynik_html"><div class="ttname"><a href="class_wynik.html">Wynik</a></div><div class="ttdoc">The Wynik class.</div><div class="ttdef"><b>Definition:</b> wynik.h:17</div></div>
+<div class="ttc" id="class_wynik_html_a59fe638e90aa61d3448260ac19540b1f"><div class="ttname"><a href="class_wynik.html#a59fe638e90aa61d3448260ac19540b1f">Wynik::odliczanieBomby</a></div><div class="ttdeci">void odliczanieBomby(int i)</div><div class="ttdef"><b>Definition:</b> wynik.cpp:33</div></div>
+<div class="ttc" id="class_wynik_html_aad86f8eb67bdec7ac986ca5b32721972"><div class="ttname"><a href="class_wynik.html#aad86f8eb67bdec7ac986ca5b32721972">Wynik::setWynik</a></div><div class="ttdeci">void setWynik(QString wynikk)</div><div class="ttdef"><b>Definition:</b> wynik.cpp:13</div></div>
+<div class="ttc" id="class_wynik_html_a3f526367577e7151d44b11fb3cdedac4"><div class="ttname"><a href="class_wynik.html#a3f526367577e7151d44b11fb3cdedac4">Wynik::Wynik</a></div><div class="ttdeci">Wynik(QGraphicsItem *parent=0)</div><div class="ttdef"><b>Definition:</b> wynik.cpp:5</div></div>
+<div class="ttc" id="class_wynik_html_ac7d869c1e0dbd678714b0e78abfe69b0"><div class="ttname"><a href="class_wynik.html#ac7d869c1e0dbd678714b0e78abfe69b0">Wynik::danePlayera</a></div><div class="ttdeci">void danePlayera(double HPP, QString bronP)</div><div class="ttdef"><b>Definition:</b> wynik.cpp:26</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.15
+</small></address>
+</body>
+</html>

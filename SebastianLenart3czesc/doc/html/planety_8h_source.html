@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.15"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>KosmicznaWojna: Plik źródłowy E:/AiR_PW/6_semestr/pjc/SEBA/Program/Gra_final_V2_Doxygen/GraV1/planety.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">KosmicznaWojna
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.15 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">E:/AiR_PW/6_semestr/pjc/SEBA/Program/Gra_final_V2_Doxygen/GraV1/planety.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="planety_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef PLANETY_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define PLANETY_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="cialakrazace_8h.html">cialakrazace.h</a>&quot;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;QPixmap&gt;</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;QList&gt;</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;QPointF&gt;</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div><div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="class_planety.html">   25</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_planety.html">Planety</a>: <span class="keyword">public</span> <a class="code" href="class_ciala_krazace.html">CialaKrazace</a></div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;{</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    Q_OBJECT</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="class_planety.html#a38ba6aa37b93451936bb092bc56018db">Planety</a>(QGraphicsItem* parent =0);</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="class_planety.html#a38ba6aa37b93451936bb092bc56018db">Planety</a>(QString path, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> czasOsi, QGraphicsItem* parent =0);</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="comment">// metody</span></div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_planety.html#ac7491f019a58d3afcb9f5551c5e7388f">setTimer</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> czas, <span class="keywordtype">bool</span> flaga=<span class="keyword">true</span>);</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_planety.html#ad3b3bed0ca5a87ed52514501ed0ad487">UstawGrafike</a>(QPixmap path);</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    QPointF <a class="code" href="class_planety.html#a2bf3456877ae9fa1361129f2283c4b76">getPktPlanetyOgolny</a>();</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    QPointF <a class="code" href="class_planety.html#a84a981fa902b627667b2dd47966a3618">setDistance</a>(<span class="keywordtype">double</span> d, QPointF point);</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="comment">// atrybuty</span></div><div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="class_planety.html#a4e73f622a2e046d9961118efef1973cf">   39</a></span>&#160;    QList&lt;QPointF&gt; <a class="code" href="class_planety.html#a4e73f622a2e046d9961118efef1973cf">okrag</a>;</div><div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="class_planety.html#a2768a2f6f61c76102a297f524e1ff0d1">   40</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="class_planety.html#a2768a2f6f61c76102a297f524e1ff0d1">TimerWokolSlonca</a>;</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> TimerOsi;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    QPointF centrum;</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">bool</span> flaga;</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i;</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    QPointF srodekPlanety;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> kier;</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="keyword">private</span> slots:</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">void</span> rotacja();</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;};</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor">#endif // PLANETY_H</span></div><div class="ttc" id="class_planety_html_a2bf3456877ae9fa1361129f2283c4b76"><div class="ttname"><a href="class_planety.html#a2bf3456877ae9fa1361129f2283c4b76">Planety::getPktPlanetyOgolny</a></div><div class="ttdeci">QPointF getPktPlanetyOgolny()</div><div class="ttdef"><b>Definition:</b> planety.cpp:32</div></div>
+<div class="ttc" id="class_ciala_krazace_html"><div class="ttname"><a href="class_ciala_krazace.html">CialaKrazace</a></div><div class="ttdoc">The CialaKrazace class Klasa podstawowa zawierajaca wspolne cechy klas Planety oraz Satelity.</div><div class="ttdef"><b>Definition:</b> cialakrazace.h:25</div></div>
+<div class="ttc" id="class_planety_html_ac7491f019a58d3afcb9f5551c5e7388f"><div class="ttname"><a href="class_planety.html#ac7491f019a58d3afcb9f5551c5e7388f">Planety::setTimer</a></div><div class="ttdeci">void setTimer(unsigned int czas, bool flaga=true)</div><div class="ttdef"><b>Definition:</b> planety.cpp:65</div></div>
+<div class="ttc" id="class_planety_html_a38ba6aa37b93451936bb092bc56018db"><div class="ttname"><a href="class_planety.html#a38ba6aa37b93451936bb092bc56018db">Planety::Planety</a></div><div class="ttdeci">Planety(QGraphicsItem *parent=0)</div><div class="ttdef"><b>Definition:</b> planety.cpp:13</div></div>
+<div class="ttc" id="class_planety_html"><div class="ttname"><a href="class_planety.html">Planety</a></div><div class="ttdoc">The Planety class Klasa tworzy orbitujece planety.</div><div class="ttdef"><b>Definition:</b> planety.h:25</div></div>
+<div class="ttc" id="class_planety_html_ad3b3bed0ca5a87ed52514501ed0ad487"><div class="ttname"><a href="class_planety.html#ad3b3bed0ca5a87ed52514501ed0ad487">Planety::UstawGrafike</a></div><div class="ttdeci">void UstawGrafike(QPixmap path)</div><div class="ttdef"><b>Definition:</b> planety.cpp:27</div></div>
+<div class="ttc" id="class_planety_html_a84a981fa902b627667b2dd47966a3618"><div class="ttname"><a href="class_planety.html#a84a981fa902b627667b2dd47966a3618">Planety::setDistance</a></div><div class="ttdeci">QPointF setDistance(double d, QPointF point)</div><div class="ttdef"><b>Definition:</b> planety.cpp:37</div></div>
+<div class="ttc" id="class_planety_html_a4e73f622a2e046d9961118efef1973cf"><div class="ttname"><a href="class_planety.html#a4e73f622a2e046d9961118efef1973cf">Planety::okrag</a></div><div class="ttdeci">QList&lt; QPointF &gt; okrag</div><div class="ttdef"><b>Definition:</b> planety.h:39</div></div>
+<div class="ttc" id="cialakrazace_8h_html"><div class="ttname"><a href="cialakrazace_8h.html">cialakrazace.h</a></div></div>
+<div class="ttc" id="class_planety_html_a2768a2f6f61c76102a297f524e1ff0d1"><div class="ttname"><a href="class_planety.html#a2768a2f6f61c76102a297f524e1ff0d1">Planety::TimerWokolSlonca</a></div><div class="ttdeci">unsigned int TimerWokolSlonca</div><div class="ttdef"><b>Definition:</b> planety.h:40</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.15
+</small></address>
+</body>
+</html>

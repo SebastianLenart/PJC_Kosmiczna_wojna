@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.15"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>KosmicznaWojna: Plik źródłowy E:/AiR_PW/6_semestr/pjc/SEBA/Program/Gra_final_V2_Doxygen/GraV1/game.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">KosmicznaWojna
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.15 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">E:/AiR_PW/6_semestr/pjc/SEBA/Program/Gra_final_V2_Doxygen/GraV1/game.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="game_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef GAME_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define GAME_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;QGraphicsView&gt;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;QGraphicsScene&gt;</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="menu_8h.html">menu.h</a>&quot;</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="cialaniebieskie_8h.html">cialaniebieskie.h</a>&quot;</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="zjawiska_8h.html">zjawiska.h</a>&quot;</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="mglawica_8h.html">mglawica.h</a>&quot;</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="czarnadziura_8h.html">czarnadziura.h</a>&quot;</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="tunel_8h.html">tunel.h</a>&quot;</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="teleportacja_8h.html">teleportacja.h</a>&quot;</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="bomba_8h.html">bomba.h</a>&quot;</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="player_8h.html">player.h</a>&quot;</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="ship_8h.html">ship.h</a>&quot;</span></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="enemy_8h.html">enemy.h</a>&quot;</span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="wynik_8h.html">wynik.h</a>&quot;</span></div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div><div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="class_game.html">   34</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_game.html">Game</a>: <span class="keyword">public</span> QGraphicsView<span class="comment">//, public QGraphicsPixmapItem</span></div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;{</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    Q_OBJECT</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="class_game.html#a32d7e09112c37ff84736ea797c1eb7f0">Game</a>(QWidget* parent=NULL);</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="comment">// metody</span></div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_game.html#a06774178653fee63e837104401601c24">displayMenu</a>();</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_game.html#ab870c46ae74c01cd01fa6dbd2d8e5ca9">gameover</a>(QString text);</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="comment">// public attributes</span></div><div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="class_game.html#a6690a43dcd84ce4b4d9f88bc4f9c82c8">   45</a></span>&#160;    QGraphicsScene* <a class="code" href="class_game.html#a6690a43dcd84ce4b4d9f88bc4f9c82c8">scenaGra</a>;</div><div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="class_game.html#a6e0c372ffa472b3a6e7d3f9302ea2b9f">   46</a></span>&#160;    QGraphicsScene* <a class="code" href="class_game.html#a6e0c372ffa472b3a6e7d3f9302ea2b9f">scenaMenu</a>;</div><div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="class_game.html#a20ffdaa8ca0e5bb6006ee64caa4351e4">   47</a></span>&#160;    QGraphicsView* <a class="code" href="class_game.html#a20ffdaa8ca0e5bb6006ee64caa4351e4">viewGra</a>;</div><div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="class_game.html#aeb13c643a2515081104023de1642633c">   48</a></span>&#160;    <a class="code" href="class_menu.html">Menu</a>* <a class="code" href="class_game.html#aeb13c643a2515081104023de1642633c">menu</a>;</div><div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="class_game.html#a1d42a4d232864f7adbe8cbad88bfdf00">   49</a></span>&#160;    <a class="code" href="class_ciala_niebieskie.html">CialaNiebieskie</a>* <a class="code" href="class_game.html#a1d42a4d232864f7adbe8cbad88bfdf00">PlanetySatelity</a>;</div><div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="class_game.html#a4c1a017771d3020e208252739953dd81">   50</a></span>&#160;    <a class="code" href="class_zjawiska.html">Zjawiska</a>* <a class="code" href="class_game.html#a4c1a017771d3020e208252739953dd81">DalekieObiekty</a>;    </div><div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="class_game.html#a72304480ec0de29dbc010356f70e34b5">   51</a></span>&#160;    QGraphicsScene* <a class="code" href="class_game.html#a72304480ec0de29dbc010356f70e34b5">overScena</a>;</div><div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="class_game.html#a652623e270986fe5466d92f3c2411e4d">   52</a></span>&#160;    QGraphicsView* <a class="code" href="class_game.html#a652623e270986fe5466d92f3c2411e4d">overView</a>;</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="keyword">public</span> slots:</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_game.html#a3d9b98f7c4a96ecf578f75b96c9f0e90">start</a>();</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordtype">void</span> ZaladujMape();</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordtype">void</span> stworzZjawiska(<span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y, <span class="keywordtype">int</span> wiersze, <span class="keywordtype">int</span> kolumny, <span class="keywordtype">int</span> a);</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <a class="code" href="class_mglawica.html">Mglawica</a>* Mgl;</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <a class="code" href="class_tunel.html">Tunel</a>* Wormhole;</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <a class="code" href="class_teleportacja.html">Teleportacja</a>* telePom;</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <a class="code" href="class_bomba.html">Bomba</a>* Bum;</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    QVector&lt;Teleportacja*&gt; VecTelepor;</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    QMap&lt;Teleportacja*, Teleportacja*&gt; mapaTelepor;</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <a class="code" href="class_teleportacja.html">Teleportacja</a>* teleFiol;</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <a class="code" href="class_czarna_dziura.html">CzarnaDziura</a>* BlackHole;</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    QVector&lt;Mglawica*&gt; VecMgl;</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    QVector&lt;Tunel*&gt; VecTunel;</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    QRectF rectangle;</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    QPainter painter;</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <a class="code" href="class_player.html">Player</a>* player;</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <a class="code" href="class_enemy.html">Enemy</a>* enemy;</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;};</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="preprocessor">#endif // GAME_H</span></div><div class="ttc" id="class_mglawica_html"><div class="ttname"><a href="class_mglawica.html">Mglawica</a></div><div class="ttdoc">The Mglawica class Klasa glownie sluzy do tego aby latwo mozna bylo wykryc kolizje na podstawie przyr...</div><div class="ttdef"><b>Definition:</b> mglawica.h:15</div></div>
+<div class="ttc" id="class_menu_html"><div class="ttname"><a href="class_menu.html">Menu</a></div><div class="ttdoc">The Menu class.</div><div class="ttdef"><b>Definition:</b> menu.h:17</div></div>
+<div class="ttc" id="class_zjawiska_html"><div class="ttname"><a href="class_zjawiska.html">Zjawiska</a></div><div class="ttdoc">The Zjawiska class.</div><div class="ttdef"><b>Definition:</b> zjawiska.h:20</div></div>
+<div class="ttc" id="czarnadziura_8h_html"><div class="ttname"><a href="czarnadziura_8h.html">czarnadziura.h</a></div></div>
+<div class="ttc" id="class_czarna_dziura_html"><div class="ttname"><a href="class_czarna_dziura.html">CzarnaDziura</a></div><div class="ttdoc">The CzarnaDziura class Klasa glownie sluzy do tego aby latwo mozna bylo wykryc kolizje na podstawie p...</div><div class="ttdef"><b>Definition:</b> czarnadziura.h:14</div></div>
+<div class="ttc" id="class_game_html_a20ffdaa8ca0e5bb6006ee64caa4351e4"><div class="ttname"><a href="class_game.html#a20ffdaa8ca0e5bb6006ee64caa4351e4">Game::viewGra</a></div><div class="ttdeci">QGraphicsView * viewGra</div><div class="ttdef"><b>Definition:</b> game.h:47</div></div>
+<div class="ttc" id="player_8h_html"><div class="ttname"><a href="player_8h.html">player.h</a></div></div>
+<div class="ttc" id="tunel_8h_html"><div class="ttname"><a href="tunel_8h.html">tunel.h</a></div></div>
+<div class="ttc" id="zjawiska_8h_html"><div class="ttname"><a href="zjawiska_8h.html">zjawiska.h</a></div></div>
+<div class="ttc" id="class_game_html_a06774178653fee63e837104401601c24"><div class="ttname"><a href="class_game.html#a06774178653fee63e837104401601c24">Game::displayMenu</a></div><div class="ttdeci">void displayMenu()</div><div class="ttdef"><b>Definition:</b> game.cpp:31</div></div>
+<div class="ttc" id="mglawica_8h_html"><div class="ttname"><a href="mglawica_8h.html">mglawica.h</a></div></div>
+<div class="ttc" id="class_game_html_a1d42a4d232864f7adbe8cbad88bfdf00"><div class="ttname"><a href="class_game.html#a1d42a4d232864f7adbe8cbad88bfdf00">Game::PlanetySatelity</a></div><div class="ttdeci">CialaNiebieskie * PlanetySatelity</div><div class="ttdef"><b>Definition:</b> game.h:49</div></div>
+<div class="ttc" id="class_game_html_a652623e270986fe5466d92f3c2411e4d"><div class="ttname"><a href="class_game.html#a652623e270986fe5466d92f3c2411e4d">Game::overView</a></div><div class="ttdeci">QGraphicsView * overView</div><div class="ttdef"><b>Definition:</b> game.h:52</div></div>
+<div class="ttc" id="teleportacja_8h_html"><div class="ttname"><a href="teleportacja_8h.html">teleportacja.h</a></div></div>
+<div class="ttc" id="class_game_html_ab870c46ae74c01cd01fa6dbd2d8e5ca9"><div class="ttname"><a href="class_game.html#ab870c46ae74c01cd01fa6dbd2d8e5ca9">Game::gameover</a></div><div class="ttdeci">void gameover(QString text)</div><div class="ttdef"><b>Definition:</b> game.cpp:50</div></div>
+<div class="ttc" id="enemy_8h_html"><div class="ttname"><a href="enemy_8h.html">enemy.h</a></div></div>
+<div class="ttc" id="class_game_html_a3d9b98f7c4a96ecf578f75b96c9f0e90"><div class="ttname"><a href="class_game.html#a3d9b98f7c4a96ecf578f75b96c9f0e90">Game::start</a></div><div class="ttdeci">void start()</div><div class="ttdef"><b>Definition:</b> game.cpp:68</div></div>
+<div class="ttc" id="class_game_html_aeb13c643a2515081104023de1642633c"><div class="ttname"><a href="class_game.html#aeb13c643a2515081104023de1642633c">Game::menu</a></div><div class="ttdeci">Menu * menu</div><div class="ttdef"><b>Definition:</b> game.h:48</div></div>
+<div class="ttc" id="class_game_html_a32d7e09112c37ff84736ea797c1eb7f0"><div class="ttname"><a href="class_game.html#a32d7e09112c37ff84736ea797c1eb7f0">Game::Game</a></div><div class="ttdeci">Game(QWidget *parent=NULL)</div><div class="ttdef"><b>Definition:</b> game.cpp:24</div></div>
+<div class="ttc" id="class_game_html"><div class="ttname"><a href="class_game.html">Game</a></div><div class="ttdoc">The Game class Klasa ktora zarzadza cala gra oraz ktora tworzy mape.</div><div class="ttdef"><b>Definition:</b> game.h:34</div></div>
+<div class="ttc" id="class_tunel_html"><div class="ttname"><a href="class_tunel.html">Tunel</a></div><div class="ttdoc">The Tunel class.</div><div class="ttdef"><b>Definition:</b> tunel.h:13</div></div>
+<div class="ttc" id="class_game_html_a4c1a017771d3020e208252739953dd81"><div class="ttname"><a href="class_game.html#a4c1a017771d3020e208252739953dd81">Game::DalekieObiekty</a></div><div class="ttdeci">Zjawiska * DalekieObiekty</div><div class="ttdef"><b>Definition:</b> game.h:50</div></div>
+<div class="ttc" id="class_teleportacja_html"><div class="ttname"><a href="class_teleportacja.html">Teleportacja</a></div><div class="ttdoc">The Teleportacja class.</div><div class="ttdef"><b>Definition:</b> teleportacja.h:16</div></div>
+<div class="ttc" id="bomba_8h_html"><div class="ttname"><a href="bomba_8h.html">bomba.h</a></div></div>
+<div class="ttc" id="menu_8h_html"><div class="ttname"><a href="menu_8h.html">menu.h</a></div></div>
+<div class="ttc" id="ship_8h_html"><div class="ttname"><a href="ship_8h.html">ship.h</a></div></div>
+<div class="ttc" id="class_player_html"><div class="ttname"><a href="class_player.html">Player</a></div><div class="ttdoc">The Player class Klasa odpowiedzialna za stworzenie statku gracza oraz za sterowanie tym statkiem.</div><div class="ttdef"><b>Definition:</b> player.h:23</div></div>
+<div class="ttc" id="cialaniebieskie_8h_html"><div class="ttname"><a href="cialaniebieskie_8h.html">cialaniebieskie.h</a></div></div>
+<div class="ttc" id="class_game_html_a6e0c372ffa472b3a6e7d3f9302ea2b9f"><div class="ttname"><a href="class_game.html#a6e0c372ffa472b3a6e7d3f9302ea2b9f">Game::scenaMenu</a></div><div class="ttdeci">QGraphicsScene * scenaMenu</div><div class="ttdef"><b>Definition:</b> game.h:46</div></div>
+<div class="ttc" id="class_ciala_niebieskie_html"><div class="ttname"><a href="class_ciala_niebieskie.html">CialaNiebieskie</a></div><div class="ttdoc">The CialaNiebieskie class Klasa odpowiedziala za tworzenie slonca oraz planet i satelit sterowanie ic...</div><div class="ttdef"><b>Definition:</b> cialaniebieskie.h:25</div></div>
+<div class="ttc" id="class_enemy_html"><div class="ttname"><a href="class_enemy.html">Enemy</a></div><div class="ttdoc">The Enemy class Klasa odpowiedzialna za tworzenie statkow wroga.</div><div class="ttdef"><b>Definition:</b> enemy.h:33</div></div>
+<div class="ttc" id="class_game_html_a6690a43dcd84ce4b4d9f88bc4f9c82c8"><div class="ttname"><a href="class_game.html#a6690a43dcd84ce4b4d9f88bc4f9c82c8">Game::scenaGra</a></div><div class="ttdeci">QGraphicsScene * scenaGra</div><div class="ttdef"><b>Definition:</b> game.h:45</div></div>
+<div class="ttc" id="class_game_html_a72304480ec0de29dbc010356f70e34b5"><div class="ttname"><a href="class_game.html#a72304480ec0de29dbc010356f70e34b5">Game::overScena</a></div><div class="ttdeci">QGraphicsScene * overScena</div><div class="ttdef"><b>Definition:</b> game.h:51</div></div>
+<div class="ttc" id="class_bomba_html"><div class="ttname"><a href="class_bomba.html">Bomba</a></div><div class="ttdoc">The Bomba class Klasa odpowiedzialna za wystrzal bomby, odliczanie czasu i jej znikniecie.</div><div class="ttdef"><b>Definition:</b> bomba.h:31</div></div>
+<div class="ttc" id="wynik_8h_html"><div class="ttname"><a href="wynik_8h.html">wynik.h</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.15
+</small></address>
+</body>
+</html>

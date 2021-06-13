@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.15"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>KosmicznaWojna: Plik źródłowy E:/AiR_PW/6_semestr/pjc/SEBA/Program/Gra_final_V2_Doxygen/GraV1/enemy.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">KosmicznaWojna
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.15 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">E:/AiR_PW/6_semestr/pjc/SEBA/Program/Gra_final_V2_Doxygen/GraV1/enemy.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="enemy_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef ENEMY_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define ENEMY_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;QGraphicsPixmapItem&gt;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;QObject&gt;</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="ship_8h.html">ship.h</a>&quot;</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="shipblue_8h.html">shipblue.h</a>&quot;</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="shipgreen_8h.html">shipgreen.h</a>&quot;</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="shipred_8h.html">shipred.h</a>&quot;</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="wynik_8h.html">wynik.h</a>&quot;</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;QTimer&gt;</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="wynik_8h.html">wynik.h</a>&quot;</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div><div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="class_enemy.html">   33</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_enemy.html">Enemy</a>: <span class="keyword">public</span> QObject, <span class="keyword">public</span> QGraphicsPixmapItem</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;{</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    Q_OBJECT</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <a class="code" href="class_enemy.html#ac98fc516847e643f8e528f4bb7cbfa35">Enemy</a>(QGraphicsItem* parent=0);\</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="comment">// metody</span></div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_enemy.html#af4bb338d9c46447630bf0ad8eb4db1c6">ustawGrafike</a>();</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="comment">// atrybuty</span></div><div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="class_enemy.html#a75b8b8454d08de2fefa395f47cce9ef5">   43</a></span>&#160;    <a class="code" href="class_ship_blue.html">ShipBlue</a>* <a class="code" href="class_enemy.html#a75b8b8454d08de2fefa395f47cce9ef5">shipB</a>;</div><div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="class_enemy.html#a5c30446b976dcdae5b72624e70bb5fba">   44</a></span>&#160;    <a class="code" href="class_ship_green.html">ShipGreen</a>* <a class="code" href="class_enemy.html#a5c30446b976dcdae5b72624e70bb5fba">shipG</a>;</div><div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="class_enemy.html#a88312f2c603863b3764c4b682d177f5c">   45</a></span>&#160;    <a class="code" href="class_ship_red.html">ShipRed</a>* <a class="code" href="class_enemy.html#a88312f2c603863b3764c4b682d177f5c">shipR</a>;</div><div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="class_enemy.html#aa8ec80e2ff0adc1167b0c06db95eb127">   46</a></span>&#160;    QVector&lt;Ship*&gt; <a class="code" href="class_enemy.html#aa8ec80e2ff0adc1167b0c06db95eb127">VecShip</a>;</div><div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="class_enemy.html#a6531c4388c523ab1e40a9a3f4ae8c183">   47</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="class_enemy.html#a6531c4388c523ab1e40a9a3f4ae8c183">kierunek</a>;</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">void</span> dodajDoVecShip(<a class="code" href="class_ship.html">Ship</a>* statek);</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">void</span> moveShip();</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">void</span> czasstrzaly();</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    QTimer* strzal;</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> licznikWrogaStatkow;</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    QTimer* czasKierunku;</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    QTimer* czasRuchu;</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <a class="code" href="class_wynik.html">Wynik</a>* WynEnemy;</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <a class="code" href="class_bomba.html">Bomba</a>* bom;</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordtype">bool</span> flagapetla;</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="keyword">private</span> slots:</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordtype">void</span> zmienKierunek();</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordtype">void</span> wyslijMove();</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordtype">void</span> wyslijstrzal();</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;};</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="preprocessor">#endif // ENEMY_H</span></div><div class="ttc" id="class_enemy_html_aa8ec80e2ff0adc1167b0c06db95eb127"><div class="ttname"><a href="class_enemy.html#aa8ec80e2ff0adc1167b0c06db95eb127">Enemy::VecShip</a></div><div class="ttdeci">QVector&lt; Ship * &gt; VecShip</div><div class="ttdef"><b>Definition:</b> enemy.h:46</div></div>
+<div class="ttc" id="class_ship_green_html"><div class="ttname"><a href="class_ship_green.html">ShipGreen</a></div><div class="ttdoc">The ShipGreen class.</div><div class="ttdef"><b>Definition:</b> shipgreen.h:14</div></div>
+<div class="ttc" id="class_ship_red_html"><div class="ttname"><a href="class_ship_red.html">ShipRed</a></div><div class="ttdoc">The ShipRed class Klasa ShipRed i jej cechy indywidualne m. in. ustawienie szybkosci,...</div><div class="ttdef"><b>Definition:</b> shipred.h:14</div></div>
+<div class="ttc" id="class_enemy_html_a6531c4388c523ab1e40a9a3f4ae8c183"><div class="ttname"><a href="class_enemy.html#a6531c4388c523ab1e40a9a3f4ae8c183">Enemy::kierunek</a></div><div class="ttdeci">unsigned int kierunek</div><div class="ttdef"><b>Definition:</b> enemy.h:47</div></div>
+<div class="ttc" id="class_enemy_html_af4bb338d9c46447630bf0ad8eb4db1c6"><div class="ttname"><a href="class_enemy.html#af4bb338d9c46447630bf0ad8eb4db1c6">Enemy::ustawGrafike</a></div><div class="ttdeci">void ustawGrafike()</div><div class="ttdef"><b>Definition:</b> enemy.cpp:47</div></div>
+<div class="ttc" id="class_enemy_html_a75b8b8454d08de2fefa395f47cce9ef5"><div class="ttname"><a href="class_enemy.html#a75b8b8454d08de2fefa395f47cce9ef5">Enemy::shipB</a></div><div class="ttdeci">ShipBlue * shipB</div><div class="ttdef"><b>Definition:</b> enemy.h:43</div></div>
+<div class="ttc" id="class_ship_blue_html"><div class="ttname"><a href="class_ship_blue.html">ShipBlue</a></div><div class="ttdoc">The ShipBlue class.</div><div class="ttdef"><b>Definition:</b> shipblue.h:14</div></div>
+<div class="ttc" id="shipblue_8h_html"><div class="ttname"><a href="shipblue_8h.html">shipblue.h</a></div></div>
+<div class="ttc" id="class_wynik_html"><div class="ttname"><a href="class_wynik.html">Wynik</a></div><div class="ttdoc">The Wynik class.</div><div class="ttdef"><b>Definition:</b> wynik.h:17</div></div>
+<div class="ttc" id="class_enemy_html_a5c30446b976dcdae5b72624e70bb5fba"><div class="ttname"><a href="class_enemy.html#a5c30446b976dcdae5b72624e70bb5fba">Enemy::shipG</a></div><div class="ttdeci">ShipGreen * shipG</div><div class="ttdef"><b>Definition:</b> enemy.h:44</div></div>
+<div class="ttc" id="shipgreen_8h_html"><div class="ttname"><a href="shipgreen_8h.html">shipgreen.h</a></div></div>
+<div class="ttc" id="ship_8h_html"><div class="ttname"><a href="ship_8h.html">ship.h</a></div></div>
+<div class="ttc" id="class_enemy_html_a88312f2c603863b3764c4b682d177f5c"><div class="ttname"><a href="class_enemy.html#a88312f2c603863b3764c4b682d177f5c">Enemy::shipR</a></div><div class="ttdeci">ShipRed * shipR</div><div class="ttdef"><b>Definition:</b> enemy.h:45</div></div>
+<div class="ttc" id="class_enemy_html"><div class="ttname"><a href="class_enemy.html">Enemy</a></div><div class="ttdoc">The Enemy class Klasa odpowiedzialna za tworzenie statkow wroga.</div><div class="ttdef"><b>Definition:</b> enemy.h:33</div></div>
+<div class="ttc" id="class_enemy_html_ac98fc516847e643f8e528f4bb7cbfa35"><div class="ttname"><a href="class_enemy.html#ac98fc516847e643f8e528f4bb7cbfa35">Enemy::Enemy</a></div><div class="ttdeci">Enemy(QGraphicsItem *parent=0)</div><div class="ttdef"><b>Definition:</b> enemy.cpp:15</div></div>
+<div class="ttc" id="class_ship_html"><div class="ttname"><a href="class_ship.html">Ship</a></div><div class="ttdoc">The Ship class Klasa odpowiedzialna za realizacie wszystkich funkcjonalnosci statka kosmicznego.</div><div class="ttdef"><b>Definition:</b> ship.h:42</div></div>
+<div class="ttc" id="class_bomba_html"><div class="ttname"><a href="class_bomba.html">Bomba</a></div><div class="ttdoc">The Bomba class Klasa odpowiedzialna za wystrzal bomby, odliczanie czasu i jej znikniecie.</div><div class="ttdef"><b>Definition:</b> bomba.h:31</div></div>
+<div class="ttc" id="wynik_8h_html"><div class="ttname"><a href="wynik_8h.html">wynik.h</a></div></div>
+<div class="ttc" id="shipred_8h_html"><div class="ttname"><a href="shipred_8h.html">shipred.h</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.15
+</small></address>
+</body>
+</html>

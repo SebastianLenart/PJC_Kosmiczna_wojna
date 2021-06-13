@@ -1,0 +1,33 @@
+digraph "E:/AiR_PW/6_semestr/pjc/SEBA/Program/Gra_final_V2_Doxygen/GraV1/shipgreen.h"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node15 [label="E:/AiR_PW/6_semestr\l/pjc/SEBA/Program/Gra\l_final_V2_Doxygen/GraV1\l/shipgreen.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node15 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="E:/AiR_PW/6_semestr\l/pjc/SEBA/Program/Gra\l_final_V2_Doxygen/GraV1\l/enemy.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$enemy_8h.html",tooltip=" "];
+  Node16 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="E:/AiR_PW/6_semestr\l/pjc/SEBA/Program/Gra\l_final_V2_Doxygen/GraV1\l/enemy.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$enemy_8cpp.html",tooltip=" "];
+  Node16 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="E:/AiR_PW/6_semestr\l/pjc/SEBA/Program/Gra\l_final_V2_Doxygen/GraV1\l/game.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$game_8h.html",tooltip=" "];
+  Node18 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="E:/AiR_PW/6_semestr\l/pjc/SEBA/Program/Gra\l_final_V2_Doxygen/GraV1\l/game.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$game_8cpp.html",tooltip=" "];
+  Node18 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="E:/AiR_PW/6_semestr\l/pjc/SEBA/Program/Gra\l_final_V2_Doxygen/GraV1\l/main.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html",tooltip=" "];
+  Node18 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="E:/AiR_PW/6_semestr\l/pjc/SEBA/Program/Gra\l_final_V2_Doxygen/GraV1\l/menu.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$menu_8cpp.html",tooltip=" "];
+  Node18 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="E:/AiR_PW/6_semestr\l/pjc/SEBA/Program/Gra\l_final_V2_Doxygen/GraV1\l/planety.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$planety_8cpp.html",tooltip=" "];
+  Node18 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="E:/AiR_PW/6_semestr\l/pjc/SEBA/Program/Gra\l_final_V2_Doxygen/GraV1\l/player.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$player_8cpp.html",tooltip=" "];
+  Node18 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="E:/AiR_PW/6_semestr\l/pjc/SEBA/Program/Gra\l_final_V2_Doxygen/GraV1\l/pocisk.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$pocisk_8cpp.html",tooltip=" "];
+  Node18 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node25 [label="E:/AiR_PW/6_semestr\l/pjc/SEBA/Program/Gra\l_final_V2_Doxygen/GraV1\l/ship.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ship_8cpp.html",tooltip=" "];
+  Node15 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 -> Node26 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node26 [label="E:/AiR_PW/6_semestr\l/pjc/SEBA/Program/Gra\l_final_V2_Doxygen/GraV1\l/shipgreen.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$shipgreen_8cpp.html",tooltip=" "];
+}

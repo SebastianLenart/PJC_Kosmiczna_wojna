@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.15"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>KosmicznaWojna: Plik źródłowy E:/AiR_PW/6_semestr/pjc/SEBA/Program/Gra_final_V2_Doxygen/GraV1/pociskpodwojny.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">KosmicznaWojna
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.15 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">E:/AiR_PW/6_semestr/pjc/SEBA/Program/Gra_final_V2_Doxygen/GraV1/pociskpodwojny.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="pociskpodwojny_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef POCISKPODWOJNY_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define POCISKPODWOJNY_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="pocisk_8h.html">pocisk.h</a>&quot;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="class_pocisk_podwojny.html">   16</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_pocisk_podwojny.html">PociskPodwojny</a>: <span class="keyword">public</span> <a class="code" href="class_pocisk.html">Pocisk</a></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;{</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <a class="code" href="class_pocisk_podwojny.html#a6887b393c9071d820145b7e2dfa64250">PociskPodwojny</a>(<span class="keywordtype">int</span> kier, QPointF poz, <span class="keywordtype">int</span> odl, <span class="keywordtype">bool</span> own = <span class="keyword">true</span>);</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_pocisk_podwojny.html#a3c13e66bec3c56b90514170aef9d0cc3">ustawGrafike</a>();</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    QPointF <a class="code" href="class_pocisk_podwojny.html#acdf843f83fefce71cf9fea813de98550">getPktPodwOgolny</a>();</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordtype">void</span> ustawPoz(<span class="keywordtype">int</span> kierun, QPointF pozyc , <span class="keywordtype">int</span> odle);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;};</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#endif // POCISKPODWOJNY_H</span></div><div class="ttc" id="class_pocisk_podwojny_html"><div class="ttname"><a href="class_pocisk_podwojny.html">PociskPodwojny</a></div><div class="ttdoc">The PociskPodwojny class Klasa PociskPodwojny i jej cechy indywidualne.</div><div class="ttdef"><b>Definition:</b> pociskpodwojny.h:16</div></div>
+<div class="ttc" id="class_pocisk_podwojny_html_acdf843f83fefce71cf9fea813de98550"><div class="ttname"><a href="class_pocisk_podwojny.html#acdf843f83fefce71cf9fea813de98550">PociskPodwojny::getPktPodwOgolny</a></div><div class="ttdeci">QPointF getPktPodwOgolny()</div><div class="ttdef"><b>Definition:</b> pociskpodwojny.cpp:24</div></div>
+<div class="ttc" id="class_pocisk_podwojny_html_a6887b393c9071d820145b7e2dfa64250"><div class="ttname"><a href="class_pocisk_podwojny.html#a6887b393c9071d820145b7e2dfa64250">PociskPodwojny::PociskPodwojny</a></div><div class="ttdeci">PociskPodwojny(int kier, QPointF poz, int odl, bool own=true)</div><div class="ttdef"><b>Definition:</b> pociskpodwojny.cpp:4</div></div>
+<div class="ttc" id="pocisk_8h_html"><div class="ttname"><a href="pocisk_8h.html">pocisk.h</a></div></div>
+<div class="ttc" id="class_pocisk_html"><div class="ttname"><a href="class_pocisk.html">Pocisk</a></div><div class="ttdoc">The Pocisk class Klasa podstawowa zawierajaca wspolne cechy pociskow.</div><div class="ttdef"><b>Definition:</b> pocisk.h:23</div></div>
+<div class="ttc" id="class_pocisk_podwojny_html_a3c13e66bec3c56b90514170aef9d0cc3"><div class="ttname"><a href="class_pocisk_podwojny.html#a3c13e66bec3c56b90514170aef9d0cc3">PociskPodwojny::ustawGrafike</a></div><div class="ttdeci">void ustawGrafike()</div><div class="ttdef"><b>Definition:</b> pociskpodwojny.cpp:19</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.15
+</small></address>
+</body>
+</html>

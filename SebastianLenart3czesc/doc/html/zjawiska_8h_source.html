@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.15"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>KosmicznaWojna: Plik źródłowy E:/AiR_PW/6_semestr/pjc/SEBA/Program/Gra_final_V2_Doxygen/GraV1/zjawiska.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">KosmicznaWojna
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.15 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">E:/AiR_PW/6_semestr/pjc/SEBA/Program/Gra_final_V2_Doxygen/GraV1/zjawiska.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="zjawiska_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef ZJAWISKA_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define ZJAWISKA_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;QGraphicsPixmapItem&gt;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;QObject&gt;</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;QPixmap&gt;</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div><div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="class_zjawiska.html">   20</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_zjawiska.html">Zjawiska</a>: <span class="keyword">public</span> QObject, <span class="keyword">public</span> QGraphicsPixmapItem</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    Q_OBJECT</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <a class="code" href="class_zjawiska.html#a7ad5c02b5dbb7b40107a464994476c0a">Zjawiska</a>(QGraphicsItem* parent =0);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_zjawiska.html#a4f81cde1d2548138052a9d6c6b8963c8">setSizePix</a>(<span class="keywordtype">double</span> w, <span class="keywordtype">double</span> h);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_zjawiska.html#a402430af64c96aeb9378a259b15104e9">ustawGrafike</a>(QPixmap path);</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_zjawiska.html#a57bb69f2a7f2114e188463d75ef2eace">setName</a>(QString n);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_zjawiska.html#a59e6f285d12fb1f6bd7120c1913853d4">setPointCenter</a>(<span class="keywordtype">double</span> a, <span class="keywordtype">double</span> b);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="class_zjawiska.html#ae7ac5b341088f8affa77f9743ccae88d">getPixWidth</a>();</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="class_zjawiska.html#aac2ae130a0525f4a50f83ef6a81669f7">getPixHeight</a>();</div><div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="class_zjawiska.html#a320ba14f2370b0ab5357199edc926b52">   31</a></span>&#160;    QPointF <a class="code" href="class_zjawiska.html#a320ba14f2370b0ab5357199edc926b52">Center</a>;</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div><div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="class_zjawiska.html#a298accac529d905a06d93e58941033bd">   33</a></span>&#160;    QString <a class="code" href="class_zjawiska.html#a298accac529d905a06d93e58941033bd">name</a>;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keyword">protected</span>:</div><div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="class_zjawiska.html#a18d47b246aced7b7baf0aaec67f80183">   37</a></span>&#160;    <span class="keywordtype">double</span> <a class="code" href="class_zjawiska.html#a18d47b246aced7b7baf0aaec67f80183">PixWidth</a>;</div><div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="class_zjawiska.html#a6ce2ce784bafd4d61644f6515e9c08ff">   38</a></span>&#160;    <span class="keywordtype">double</span> <a class="code" href="class_zjawiska.html#a6ce2ce784bafd4d61644f6515e9c08ff">PixHeight</a>;</div><div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="class_zjawiska.html#ab1a21b4fe8767532387c4d6a619de28f">   39</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="class_zjawiska.html#ab1a21b4fe8767532387c4d6a619de28f">zmienPredkosc</a>;</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;};</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">#endif // ZJAWISKA_H</span></div><div class="ttc" id="class_zjawiska_html_a298accac529d905a06d93e58941033bd"><div class="ttname"><a href="class_zjawiska.html#a298accac529d905a06d93e58941033bd">Zjawiska::name</a></div><div class="ttdeci">QString name</div><div class="ttdef"><b>Definition:</b> zjawiska.h:33</div></div>
+<div class="ttc" id="class_zjawiska_html_a6ce2ce784bafd4d61644f6515e9c08ff"><div class="ttname"><a href="class_zjawiska.html#a6ce2ce784bafd4d61644f6515e9c08ff">Zjawiska::PixHeight</a></div><div class="ttdeci">double PixHeight</div><div class="ttdef"><b>Definition:</b> zjawiska.h:38</div></div>
+<div class="ttc" id="class_zjawiska_html"><div class="ttname"><a href="class_zjawiska.html">Zjawiska</a></div><div class="ttdoc">The Zjawiska class.</div><div class="ttdef"><b>Definition:</b> zjawiska.h:20</div></div>
+<div class="ttc" id="class_zjawiska_html_aac2ae130a0525f4a50f83ef6a81669f7"><div class="ttname"><a href="class_zjawiska.html#aac2ae130a0525f4a50f83ef6a81669f7">Zjawiska::getPixHeight</a></div><div class="ttdeci">double getPixHeight()</div><div class="ttdef"><b>Definition:</b> zjawiska.cpp:33</div></div>
+<div class="ttc" id="class_zjawiska_html_ae7ac5b341088f8affa77f9743ccae88d"><div class="ttname"><a href="class_zjawiska.html#ae7ac5b341088f8affa77f9743ccae88d">Zjawiska::getPixWidth</a></div><div class="ttdeci">double getPixWidth()</div><div class="ttdef"><b>Definition:</b> zjawiska.cpp:28</div></div>
+<div class="ttc" id="class_zjawiska_html_a59e6f285d12fb1f6bd7120c1913853d4"><div class="ttname"><a href="class_zjawiska.html#a59e6f285d12fb1f6bd7120c1913853d4">Zjawiska::setPointCenter</a></div><div class="ttdeci">void setPointCenter(double a, double b)</div><div class="ttdef"><b>Definition:</b> zjawiska.cpp:23</div></div>
+<div class="ttc" id="class_zjawiska_html_a402430af64c96aeb9378a259b15104e9"><div class="ttname"><a href="class_zjawiska.html#a402430af64c96aeb9378a259b15104e9">Zjawiska::ustawGrafike</a></div><div class="ttdeci">virtual void ustawGrafike(QPixmap path)</div><div class="ttdef"><b>Definition:</b> zjawiska.cpp:16</div></div>
+<div class="ttc" id="class_zjawiska_html_a320ba14f2370b0ab5357199edc926b52"><div class="ttname"><a href="class_zjawiska.html#a320ba14f2370b0ab5357199edc926b52">Zjawiska::Center</a></div><div class="ttdeci">QPointF Center</div><div class="ttdef"><b>Definition:</b> zjawiska.h:31</div></div>
+<div class="ttc" id="class_zjawiska_html_ab1a21b4fe8767532387c4d6a619de28f"><div class="ttname"><a href="class_zjawiska.html#ab1a21b4fe8767532387c4d6a619de28f">Zjawiska::zmienPredkosc</a></div><div class="ttdeci">unsigned int zmienPredkosc</div><div class="ttdef"><b>Definition:</b> zjawiska.h:39</div></div>
+<div class="ttc" id="class_zjawiska_html_a18d47b246aced7b7baf0aaec67f80183"><div class="ttname"><a href="class_zjawiska.html#a18d47b246aced7b7baf0aaec67f80183">Zjawiska::PixWidth</a></div><div class="ttdeci">double PixWidth</div><div class="ttdef"><b>Definition:</b> zjawiska.h:37</div></div>
+<div class="ttc" id="class_zjawiska_html_a57bb69f2a7f2114e188463d75ef2eace"><div class="ttname"><a href="class_zjawiska.html#a57bb69f2a7f2114e188463d75ef2eace">Zjawiska::setName</a></div><div class="ttdeci">void setName(QString n)</div><div class="ttdef"><b>Definition:</b> zjawiska.cpp:18</div></div>
+<div class="ttc" id="class_zjawiska_html_a7ad5c02b5dbb7b40107a464994476c0a"><div class="ttname"><a href="class_zjawiska.html#a7ad5c02b5dbb7b40107a464994476c0a">Zjawiska::Zjawiska</a></div><div class="ttdeci">Zjawiska(QGraphicsItem *parent=0)</div><div class="ttdef"><b>Definition:</b> zjawiska.cpp:4</div></div>
+<div class="ttc" id="class_zjawiska_html_a4f81cde1d2548138052a9d6c6b8963c8"><div class="ttname"><a href="class_zjawiska.html#a4f81cde1d2548138052a9d6c6b8963c8">Zjawiska::setSizePix</a></div><div class="ttdeci">void setSizePix(double w, double h)</div><div class="ttdef"><b>Definition:</b> zjawiska.cpp:9</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.15
+</small></address>
+</body>
+</html>

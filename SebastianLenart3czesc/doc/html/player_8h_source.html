@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.15"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>KosmicznaWojna: Plik źródłowy E:/AiR_PW/6_semestr/pjc/SEBA/Program/Gra_final_V2_Doxygen/GraV1/player.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">KosmicznaWojna
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.15 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">E:/AiR_PW/6_semestr/pjc/SEBA/Program/Gra_final_V2_Doxygen/GraV1/player.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="player_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef PLAYER_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define PLAYER_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="ship_8h.html">ship.h</a>&quot;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;QGraphicsPixmapItem&gt;</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;QObject&gt;</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;QPixmap&gt;</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="ship_8h.html">ship.h</a>&quot;</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="wynik_8h.html">wynik.h</a>&quot;</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div><div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="class_player.html">   23</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_player.html">Player</a>: <span class="keyword">public</span> QObject, <span class="keyword">public</span> QGraphicsPixmapItem</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    Q_OBJECT</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <a class="code" href="class_player.html#a2d713e6aef36a60f4e77a59f20f26db4">Player</a>(<span class="keywordtype">int</span> w=1, QGraphicsItem* parent=0);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_player.html#a4d269c4118c29b0ee85c1e0f674260ee">keyPressEvent</a>(QKeyEvent* event);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div><div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="class_player.html#a90b7dd4e2091602db3dc5fdb1bc78494">   30</a></span>&#160;    <a class="code" href="class_ship.html">Ship</a>* <a class="code" href="class_player.html#a90b7dd4e2091602db3dc5fdb1bc78494">ship</a>;</div><div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="class_player.html#a3e663479ac33437f12c17c9366018a54">   31</a></span>&#160;    <a class="code" href="class_wynik.html">Wynik</a>* <a class="code" href="class_player.html#a3e663479ac33437f12c17c9366018a54">wynPlayera</a>;</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;};</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#endif // PLAYER_H</span></div><div class="ttc" id="class_player_html_a90b7dd4e2091602db3dc5fdb1bc78494"><div class="ttname"><a href="class_player.html#a90b7dd4e2091602db3dc5fdb1bc78494">Player::ship</a></div><div class="ttdeci">Ship * ship</div><div class="ttdef"><b>Definition:</b> player.h:30</div></div>
+<div class="ttc" id="class_player_html_a4d269c4118c29b0ee85c1e0f674260ee"><div class="ttname"><a href="class_player.html#a4d269c4118c29b0ee85c1e0f674260ee">Player::keyPressEvent</a></div><div class="ttdeci">void keyPressEvent(QKeyEvent *event)</div><div class="ttdef"><b>Definition:</b> player.cpp:46</div></div>
+<div class="ttc" id="class_player_html_a2d713e6aef36a60f4e77a59f20f26db4"><div class="ttname"><a href="class_player.html#a2d713e6aef36a60f4e77a59f20f26db4">Player::Player</a></div><div class="ttdeci">Player(int w=1, QGraphicsItem *parent=0)</div><div class="ttdef"><b>Definition:</b> player.cpp:18</div></div>
+<div class="ttc" id="class_wynik_html"><div class="ttname"><a href="class_wynik.html">Wynik</a></div><div class="ttdoc">The Wynik class.</div><div class="ttdef"><b>Definition:</b> wynik.h:17</div></div>
+<div class="ttc" id="ship_8h_html"><div class="ttname"><a href="ship_8h.html">ship.h</a></div></div>
+<div class="ttc" id="class_player_html"><div class="ttname"><a href="class_player.html">Player</a></div><div class="ttdoc">The Player class Klasa odpowiedzialna za stworzenie statku gracza oraz za sterowanie tym statkiem.</div><div class="ttdef"><b>Definition:</b> player.h:23</div></div>
+<div class="ttc" id="class_player_html_a3e663479ac33437f12c17c9366018a54"><div class="ttname"><a href="class_player.html#a3e663479ac33437f12c17c9366018a54">Player::wynPlayera</a></div><div class="ttdeci">Wynik * wynPlayera</div><div class="ttdef"><b>Definition:</b> player.h:31</div></div>
+<div class="ttc" id="class_ship_html"><div class="ttname"><a href="class_ship.html">Ship</a></div><div class="ttdoc">The Ship class Klasa odpowiedzialna za realizacie wszystkich funkcjonalnosci statka kosmicznego.</div><div class="ttdef"><b>Definition:</b> ship.h:42</div></div>
+<div class="ttc" id="wynik_8h_html"><div class="ttname"><a href="wynik_8h.html">wynik.h</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.15
+</small></address>
+</body>
+</html>
